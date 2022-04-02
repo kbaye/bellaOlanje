@@ -1,0 +1,160 @@
+#hamItems { 
+    display: flex;
+  }
+  
+  #hamItems a { 
+    width: 100%;
+    text-align: center; 
+  }
+  
+  #hamNav label, #hamburger { 
+    display: none; 
+  }
+  
+  #hamNav { 
+    background:orangered; 
+    cursor: pointer;
+  }
+  
+  #hamNav, #hamItems a {
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+  }
+  
+  #hamItems a:hover { 
+    background: brown; 
+  } 
+
+
+@media (max-width: 600px) {
+
+    body {
+        width: 100%;
+    }
+
+    main {
+        width: 100%;
+    }
+
+    .header {
+        display: flex;
+        width: 100%;
+        height: 170px;
+    }
+
+    .entete {
+        display: flex;
+        justify-content: center;
+        width: 58%;
+        justify-content: space-between;
+        
+    }
+
+    .banniere {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        height: 120px;
+        background-image: url("image/banniere.jpg"); width: 100%;
+        color: white;
+        width: 96%; 
+    }
+
+
+    .id {
+        display: flex;
+        justify-content: center;
+    }
+
+
+    .photo {
+        display: flex;
+        justify-content: center;
+        position: relative;
+        top: 5px;
+        width: 100%;
+        height: 150px;
+    }
+
+    .prix {
+        display: flex;
+        justify-content: space-around;
+        padding: 16px 0px;
+    }
+
+    .commander {
+        display: flex;
+        justify-content: center;
+    }
+
+    .button {
+        background-color: red;
+        color: white;
+        width: 200px;
+        height: 50px;
+        border-radius: 30px;
+        position: relative;
+        bottom: 5px;
+    }
+
+    .commanderpizza {
+        border: 3px solid rgba(242, 78, 30, 1);
+        width: 96%;
+        
+    }
+
+    h3 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        height: 50px;
+    }
+
+    p {
+        display: block;
+        justify-content: center;
+        text-align: center;
+        height: 100px;
+        margin: 10px;
+    }
+
+    .bonappétit {
+        width: 100%;
+        height: 400px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 96%;
+    }
+
+    .logo1 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .reseaux {
+    display: flex;
+    justify-content: center;
+    size: 50px;
+    }
+
+    #hamNav label { 
+        display: inline-block;
+        font-size: 1.5em; 
+      }
+      
+      #hamItems {
+        flex-wrap: wrap;
+        display: none;  
+      }
+      
+      #hamNav input:checked ~ #hamItems {
+        display: flex;
+      }
+
+}
+
+

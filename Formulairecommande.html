@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Formulairecommandestyle.css">
+</head>
+<body>
+    <main>
+        <header>
+            <div class="entete">
+                <nav id="hamNav">
+                    <label for="hamburger">&#9776;
+                    </label>
+                    <input type="checkbox" id="hamburger"/>
+                        <div id="hamItems">
+                            <a href="#accueil">Accueil</a>
+                            <br>
+                            <a href="#nospizzas">Pizzas</a>
+                            <a href="#burger">Burgers</a>
+                            <a href="#salade">Salade</a>
+                            <br>
+                            <a href="#commande">Commandes</a>
+                            <a href="Formulairenouscontacter.html">Contact</a>
+                        </div>
+                </nav>
+                <img src="image/bella.jpg" height="50">                    
+            </div>
+                <!--ajouter <img src="image/menu.jpg" height="50">
+                <img src="image/home.jpg" height="50">-->
+
+            <div class="banniere">
+                <h3>Food app, <br>Chez Bella <br>chaque désir s'additionne.</h3>
+            </div>
+        </header>
+        <div class="info">
+            <div class="titrevosinformation">
+                <h3>Vos informations</h3>
+            </div>
+            <div class="infoclient">
+                <label for="Nom">Nom</label>
+                <input type="text" id="Nom" name="Nom" placeholder="Nom">
+                <label for="lname">Prénom</label>
+                <input type="text" id="Prénom" name="Prénom" placeholder="Prénom">
+                <label for="lname">Téléphone</label>
+                <input type="text" id="Téléphone" name="Téléphone" placeholder="Téléphone">
+                <label for="lname">Email</label>
+                <input type="text" id="Email" name="Email" placeholder="Email">
+            </div>
+        </div>
+        <div id="commande" class="commande">
+            <div class="titrevotrecommande">
+                <h3>Votre commande</h3>
+            </div>
+            <div class="votrecommande">
+                <div class="colorspizza4fromage">
+                    <H4>Pizza 4 fromage X 1</H4>
+                </div>
+                <div>
+                    <b>Suppléments</b>
+                </div>
+                <label for="Ingrédient">Ingrédient 1 </label>        
+                <select id="Ingrédient" name="Ingrédient">            
+                <option value="ingrédient">Fromage</option>
+                </select>
+                <label for="Quantité">Quantité </label>
+                <select id="Quantité" name="Quantité">
+                    <option value="un">1</option>
+                    <option value="deux">2</option>
+                    <option value="trois">3</option>
+                </select>
+                <label for="Ingrédient">Ingrédient 2 </label>
+                <select id="Ingrédient" name="Ingrédient">
+                <option value="ingrédient">Champignons</option>
+                </select>
+                <label for="Quantité">Quantité </label>
+                <select id="Quantité" name="Quantité">
+                    <option value="un">1</option>
+                    <option value="deux">2</option>
+                    <option value="trois">3</option>
+                </select>
+                <label for="Ingrédient">Ingrédient 3 </label>
+                <select id="Ingrédient" name="Ingrédient">
+
+                <option value="ingrédient">Jambon</option>
+
+                </select>
+
+                <label for="Quantité">Quantité </label>
+
+                <select id="Quantité" name="Quantité">
+        
+                    <option value="un">1</option>
+                    <option value="deux">2</option>
+                    <option value="trois">3</option>
+
+                </select>
+
+                <label for="Ingrédient">Ingrédient 4 </label>
+
+                <select id="Ingrédient" name="Ingrédient">
+                
+                <option value="ingrédient">Olives</option>
+
+                </select>
+
+                <label for="Quantité">Quantité </label>
+
+                <select id="Quantité" name="Quantité">
+        
+                    <option value="un">1</option>
+                    <option value="deux">2</option>
+                    <option value="trois">3</option>
+                    
+                </select>
+
+            </div>
+        </div>
+        <div class="avecsans">
+
+            <button type="submit">Avec Frites</button>
+            <button type="submit">Sans Frites</button>
+            
+        </div>
+        <div class="Boissons">
+        
+            <div class="titreboissons">
+                <h3>Boissons</h3>
+            </div>
+
+
+            <label for="Boissons">Coca-Cola</label>
+
+                <select id="Quantité" name="Quantité">
+        
+                    <option value="un">1</option>
+                    <option value="deux">2</option>
+                    <option value="trois">3</option>
+
+                </select>
+
+            <label for="Boissons">Fanta</label>
+
+            <select id="Quantité" name="Quantité">
+        
+                    <option value="un">1</option>
+                    <option value="deux">2</option>
+                    <option value="trois">3</option>
+
+            </select>
+
+            <label for="Boissons">Evian</label>
+
+                <select id="Quantité" name="Quantité">
+        
+                    <option value="un">1</option>
+                    <option value="deux">2</option>
+                    <option value="trois">3</option>
+
+                </select>
+                
+        </div>
+        <div class="Dessert">
+        
+            <div class="titredessert">
+                <h3>Dessert</h3>
+            </div>
+
+
+            <label for="Dessert">Toramisu</label>
+
+                <select id="Quantité" name="Quantité">
+        
+                    <option value="un">1</option>
+                    <option value="deux">2</option>
+                    <option value="trois">3</option>
+
+                </select>
+
+            <label for="Dessert">Cheese-Cake</label>
+
+            <select id="Quantité" name="Quantité">
+        
+                    <option value="un">1</option>
+                    <option value="deux">2</option>
+                    <option value="trois">3</option>
+
+            </select>
+
+            <label for="Dessert">Tarte aux fraises</label>
+
+                <select id="Quantité" name="Quantité">
+        
+                    <option value="un">1</option>
+                    <option value="deux">2</option>
+                    <option value="trois">3</option>
+
+                </select>
+                
+        </div>
+        <div class="Adresse de livraison">
+
+            <div class="titreadressedelivraison">
+                <h3>Adresse de livraison</h3>
+            </div>
+            
+            <div class="infoclient">
+                <label for="Nom">Nom</label>
+                <input type="text" id="Nom" name="Nom" placeholder="Nom">
+            
+                <label for="lname">Prénom</label>
+                <input type="text" id="Prénom" name="Prénom" placeholder="Prénom">
+                
+                <label for="lname">Téléphone</label>
+                <input type="text" id="Téléphone" name="Téléphone" placeholder="Téléphone">
+                
+                <label for="lname">Email</label>
+                <input type="text" id="Email" name="Email" placeholder="Email">
+
+                <label for="lname">Adresse</label>
+                <input type="text" id="Adresse" name="Adresse" placeholder="Adresse">
+
+                <label for="lname">Code postale</label>
+                <input type="text" id="Code postale" name="Code postale" placeholder="Code postale">
+
+                <label for="lname">Ville</label>
+                <input type="text" id="Ville" name="Ville" placeholder="Ville">
+
+
+            </div>
+            
+        </div>
+        <div class="boutoncommander">
+
+            <button class="button">Commander</button>
+
+        </div>
+        <br>
+            <hr class="espace">
+            <div class="pbsolved">
+                <h3>Problem solved</h3>
+                <p>After so many iterations and research covered, through my designs i was able to help customers get acquainted with the app and order as fast as they can while enjoying the process as they doing it.</p>
+            </div>
+        <br>
+        <footer>
+                
+                <div class="bonappétit">
+                    <img src="image/Bon appétit.png" width=100%>
+                </div>
+
+                <div class="logo1">
+
+                    <img src="image/bella.jpg" height="50">
+                </div>
+
+            <br>   
+
+                <div class="reseaux">
+
+                    <a href="https://www.instagram.com/">
+                        <img src="image/insta.jpg" width="40"> 
+                    </a>
+
+                    <a href="https://www.facebook.com/">
+                        <img src="image/facebook.png" width="40">
+                    </a>
+                    
+                    <a href="https://twitter.com/">
+                        <img src="image/twitter.png" width="40">
+                    </a>
+
+                </div>
+
+        </footer>
+    </main>
+</body>
+</html>
